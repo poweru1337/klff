@@ -19,7 +19,7 @@ import requests
 
 github_repo = "https://raw.githubusercontent.com/poweru1337/klff/main/klff.py"
 version_file_url = "https://raw.githubusercontent.com/poweru1337/klff/main/version.txt"
-local_version = "1.0.0"
+local_version = "1.0.1"
 local_path = os.path.abspath(__file__)
 
 def get_remote_version():
